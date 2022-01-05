@@ -13,7 +13,7 @@ MongoDB, Expressjs, React/Redux, Nodejs
 > MERN is a fullstack implementation in MongoDB, Expressjs, React/Redux, Nodejs.
 
 # Restaurant Review
-This project is a restaurant review application
+This project is a restaurant review application using DAO as data patern 
 
 ## clone or download
 ```terminal
