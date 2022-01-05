@@ -75,8 +75,7 @@ $ echo "RESTREVIEWS_DB_URI=YOUR_RESTREVIEWS_DB_URI" >> ./backend/.env
 ```terminal
 $ cd backend   // go to backend folder
 $ npm i       // npm install packages
-$ npm run dev // run it locally
-$ npm run build // this will build the backend code to es5 js codes and generate a dist file
+$ nodemon server
 ```
 
 # Dependencies(tech-stacks)
