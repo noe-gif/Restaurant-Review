@@ -24,7 +24,7 @@ This project is a restaurant review application
 
 ## clone or download
 ```terminal
-$ git clone https://github.com/amazingandyyy/mern.git
+$ git clone https://github.com/noe-gif/Restaurant-Review.git
 $ npm i
 ```
 
