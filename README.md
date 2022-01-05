@@ -104,10 +104,10 @@ Login interface
 # Sample data and MongoDB interface
 
 Collection of the database
-![Collection](http://i.imgur.com/ORCGHHY.png)
+![Collection](https://media.discordapp.net/attachments/841310155856805949/928379321691811880/unknown.png?width=960&height=440)
 
 MongoDB interface
-![interface](http://i.imgur.com/rrmbU5I.png)
+![interface](https://media.discordapp.net/attachments/841310155856805949/928379467397746778/unknown.png?width=960&height=454)
 
 ## File structure
 #### `frontend` - Holds the client application
