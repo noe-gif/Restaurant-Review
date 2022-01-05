@@ -32,10 +32,10 @@ $ npm i
 ```terminal
 LICENSE
 package.json
-server/
+backend/
    package.json
    .env (to create .env, check [prepare your secret session])
-client/
+frontend
    package.json
 ...
 ```
@@ -49,71 +49,46 @@ client/
 
 notice, you need client and server runs concurrently in different terminal session, in order to make them talk to each other
 
-## Client-side usage(PORT: 3000)
+## frontend-side usage(PORT: 3000)
 ```terminal
-$ cd client   // go to client folder
+$ cd client   // go to frontend folder
 $ npm i       // npm install packages
 $ npm run dev // run it locally
 
-// deployment for client app
+// deployment for frontend app
 $ npm run build // this will compile the react code using webpack and generate a folder called docs in the root level
 $ npm run start // this will run the files in docs, this behavior is exactly the same how gh-pages will run your static site
 ```
 
-## Server-side usage(PORT: 8000)
+## backend-side usage(PORT: 5000)
 
 ### Prepare your secret
 
 run the script at the first level:
 
-(You need to add a JWT_SECRET in .env to connect to MongoDB)
+(You need to add a RESTREVIEWS_DB_URI in .env to connect to MongoDB)
 
 ```terminal
 // in the root level
-$ echo "JWT_SECRET=YOUR_JWT_SECRET" >> ./server/src/.env
+$ echo "RESTREVIEWS_DB_URI=YOUR_RESTREVIEWS_DB_URI" >> ./backend/.env
 ```
 
 ### Start
 
 ```terminal
-$ cd server   // go to server folder
+$ cd backend   // go to backend folder
 $ npm i       // npm install packages
 $ npm run dev // run it locally
-$ npm run build // this will build the server code to es5 js codes and generate a dist file
-```
-
-## Deploy Server to [Heroku](https://dashboard.heroku.com/)
-```terminal
-$ npm i -g heroku
-$ heroku login
-...
-$ heroku create
-$ npm run heroku:add <your-super-amazing-heroku-app>
-// remember to run this command in the root level, not the server level, so if you follow the documentation along, you may need to do `cd ..`
-$ pwd
-/Users/<your-name>/mern
-$ npm run deploy:heroku
-```
-
-### After creating heroku
-
-remember to update the file of [client/webpack.prod.js](https://github.com/amazingandyyy/mern/blob/master/client/webpack.prod.js)
-```javascript
- 'API_URI': JSON.stringify('https://your-super-amazing-heroku-app.herokuapp.com')
+$ npm run build // this will build the backend code to es5 js codes and generate a dist file
 ```
 
 # Dependencies(tech-stacks)
-Client-side | Server-side
+frontend-side | backend-side
 --- | ---
 axios: ^0.15.3 | bcrypt-nodejs: ^0.0.3
-babel-preset-stage-1: ^6.1.18|body-parser: ^1.15.2
-lodash: ^3.10.1 | cors: ^2.8.1
 react: ^16.2.0 | dotenv: ^2.0.0
 react-dom: ^16.2.0 | express: ^4.14.0
-react-redux: ^4.0.0 | jwt-simple: ^0.5.1
 react-router-dom: ^4.2.2 | mongoose: ^4.7.4
-redux: ^3.7.2 | morgan: ^1.7.0
-redux-thunk: ^2.1.0 |
 
 # Screenshots of this project
 
@@ -125,6 +100,14 @@ User can sign in or sign up
 
 After signing in user can go to account route and make request to token-protected API endpoint
 ![After signing in user can go to account route](http://i.imgur.com/FzLB51u.png)
+
+# Sample data and MongoDB interface
+
+Collection of the database
+![Collection](http://i.imgur.com/ORCGHHY.png)
+
+MongoDB interface
+![interface](http://i.imgur.com/rrmbU5I.png)
 
 ## Standard
 
@@ -140,7 +123,7 @@ After signing in user can go to account route and make request to token-protecte
     - #### `App.js` - This is what renders all of our browser routes and different views
     - #### `index.js` - This is what renders the react app by rendering App.js, should not change
 - #### `package.json` - Defines npm behaviors and packages for the client
-#### `server` - Holds the server application
+#### `backend` - Holds the server application
 - #### `config` - This holds our configuration files, like mongoDB uri
 - #### `controllers` - These hold all of the callback functions that each route will call
 - #### `models` - This holds all of our data models
