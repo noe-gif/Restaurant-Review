@@ -1,5 +1,5 @@
 <h1 align="center">
-🌐 MERN Stack
+<img src="https://miro.medium.com/max/1200/1*FVtCyRdJ6KOr4YswTtwMeA.jpeg" /> MERN Stack
 </h1>
 <p align="center">
 MongoDB, Expressjs, React/Redux, Nodejs
