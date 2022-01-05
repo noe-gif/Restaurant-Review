@@ -78,7 +78,7 @@ $ npm run build // this will build the backend code to es5 js codes and generate
 # Dependencies(tech-stacks)
 frontend-side | backend-side
 --- | ---
-axios: ^0.15.3 | bcrypt-nodejs: ^0.0.3
+axios: ^0.15.3 | cors: ^2.8.5
 react: ^16.2.0 | dotenv: ^2.0.0
 react-dom: ^16.2.0 | express: ^4.14.0
 react-router-dom: ^4.2.2 | mongoose: ^4.7.4
