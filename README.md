@@ -89,14 +89,17 @@ react-router-dom: ^4.2.2 | mongoose: ^4.7.4
 
 # Screenshots of this project
 
-User visit public and Home page
-![User visit public and Home page](http://i.imgur.com/ORCGHHY.png)
+Base interface with 3 way of searching restaurants (zip, name, cuisine)
+![home page](https://media.discordapp.net/attachments/841310155856805949/928347759935889418/unknown.png?width=866&height=468)
 
-User can sign in or sign up
-![User can sign in or sign up](http://i.imgur.com/rrmbU5I.png)
+Restaurant review interface (only editable if you're the writer of a review)
+![review interface](https://media.discordapp.net/attachments/841310155856805949/928347677773676575/unknown.png?width=754&height=468)
 
-After signing in user can go to account route and make request to token-protected API endpoint
-![After signing in user can go to account route](http://i.imgur.com/FzLB51u.png)
+Create review
+![review create](https://media.discordapp.net/attachments/841310155856805949/928347644122791976/unknown.png?width=960&height=454)
+
+Login interface
+![login](https://media.discordapp.net/attachments/841310155856805949/928347860506914836/unknown.png?width=960&height=454)
 
 # Sample data and MongoDB interface
 
