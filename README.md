@@ -1,5 +1,5 @@
 <h1 align="center">
-🌐 Restaurant Review (MERN Stack)
+🌐 MERN Stack
 </h1>
 <p align="center">
 MongoDB, Expressjs, React/Redux, Nodejs
@@ -20,7 +20,7 @@ MongoDB, Expressjs, React/Redux, Nodejs
 > MERN is a fullstack implementation in MongoDB, Expressjs, React/Redux, Nodejs.
 
 # Restaurant Review
-This project is a restaurant review application made using the Mern stack (MongoDb - ExpressJS - React - NodeJS)
+This project is a restaurant review application
 
 ## Getting Started
 This repository aims to assist you in beginning work on a MERN stack application with a solid file structure as a foundation. To get started make a copy of this template repo for your project teams.
