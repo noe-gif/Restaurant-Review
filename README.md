@@ -6,12 +6,8 @@ MongoDB, Expressjs, React/Redux, Nodejs
 </p>
 
 <p align="center">
-   <a href="https://travis-ci.com/amazingandyyy/mern">
       <img src="https://travis-ci.com/amazingandyyy/mern.svg?branch=master" />
-   </a>
-   <a href="https://circleci.com/gh/amazingandyyy/mern">
       <img src="https://circleci.com/gh/amazingandyyy/mern.svg?style=svg" />
-   </a>
 </p>
 
 > MERN is a fullstack implementation in MongoDB, Expressjs, React/Redux, Nodejs.
