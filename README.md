@@ -109,10 +109,6 @@ Collection of the database
 MongoDB interface
 ![interface](http://i.imgur.com/rrmbU5I.png)
 
-## Standard
-
-[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
-
 ## File structure
 #### `frontend` - Holds the client application
 - #### `public` - This holds all of our static files
