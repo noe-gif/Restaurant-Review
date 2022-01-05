@@ -15,7 +15,7 @@ MongoDB, Expressjs, React/Redux, Nodejs
 # Restaurant Review
 This project is a restaurant review application using DAO as data patern
 
-Baucause one picture is worth a thousand words : 
+Baucause one picture made by me is worth a thousand words : 
 
 <img src="https://media.discordapp.net/attachments/841310155856805949/928344599993393172/unknown.png?width=862&height=467" />
 
